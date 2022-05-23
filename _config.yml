@@ -264,6 +264,7 @@ defaults:
       comments: true
       share: true
       related: false
+      use_math: true
   
   # _pages
   - scope:
