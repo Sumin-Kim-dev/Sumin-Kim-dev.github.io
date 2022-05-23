@@ -2,7 +2,7 @@
 title:  "[Java] 빠른 입출력 : BufferedReader / BufferedWriter"
 categories: Java
 tags: BufferedReader BufferedWriter StringTokenizer
-last_modified_at: 2022-05-23 +0900
+last_modified_at: 2022-05-23
 toc: true
 toc_sticky: true
 ---
