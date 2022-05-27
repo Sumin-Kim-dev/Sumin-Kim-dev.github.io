@@ -13,7 +13,9 @@ BufferedReader, BufferedWriter가 Scanner, print보다 훨씬 빠른 입출력�
 ## BufferedReader
 
 사용을 위해서는 java.io.BufferedReader, java.io.InputStreamReader를 import해야 한다.  
+에러가 발생할 경우 IOException을 발생시키므로 java.io.ioexception도 import 해야 한다.  
 버퍼를 사용하는 입력으로, Scanner보다 훨씬 빠른 속도를 자랑한다.  
+
 Scanner와 크게 두 가지 차이점이 있다.
 
 - 오직 엔터만을 경계로 인식한다.  
@@ -28,6 +30,7 @@ Scanner와 크게 두 가지 차이점이 있다.
 ## BufferedWriter
 
 사용을 위해서는 java.io.BufferedWriter, java.io.OutputStreamWriter를 import해야 한다.  
+에러가 발생할 경우 IOException을 발생시키므로 java.io.ioexception도 import 해야 한다.  
 버퍼를 사용하는 출력으로, print보다 속도가 빠르다.  
 개행이 필요하다면 BufferedWriter.newLine()을 사용하면 된다.
 
@@ -57,4 +60,5 @@ public class Main {
 }
 ```
 
+main 메소드에 예외처리를 위해 throws IOException을 추가하였다.  
 BufferedWriter의 경우 위 코드에서는 flush()와 close()를 둘 다 사용했는데, close()가 flush()를 포함하고 있다. 이 문제 같은 경우는 close()만 써도 된다.
