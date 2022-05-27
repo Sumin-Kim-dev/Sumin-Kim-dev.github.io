@@ -2,7 +2,7 @@
 title:  "[Java] 빠른 입출력 : BufferedReader / BufferedWriter"
 categories: Java
 tags: BufferedReader BufferedWriter StringTokenizer
-last_modified_at: 2022-05-23
+last_modified_at: 2022-05-28
 toc: true
 toc_sticky: true
 ---
@@ -12,12 +12,14 @@ BufferedReader, BufferedWriter가 Scanner, print보다 훨씬 빠른 입출력�
 
 ## BufferedReader
 
+사용을 위해서는 java.io.BufferedReader, java.io.InputStreamReader를 import해야 한다.  
 버퍼를 사용하는 입력으로, Scanner보다 훨씬 빠른 속도를 자랑한다.  
 Scanner와 크게 두 가지 차이점이 있다.
 
 - 오직 엔터만을 경계로 인식한다.  
   - 스페이스 바 등을 경계로 인식하지 않는다.
   - StringTokenizer.nextToken(String s)로 추가적인 처리를 해야하는 경우도 있다.
+  - StringTokenizer를 사용하려면 java.io.StringTokenizer를 import 해야 한다.
 
 - 입력된 값을 문자열로만 인식한다.  
   - int 등 다른 자료형으로 입력을 변환시키는 과정이 필요하다.
@@ -25,6 +27,7 @@ Scanner와 크게 두 가지 차이점이 있다.
 
 ## BufferedWriter
 
+사용을 위해서는 java.io.BufferedWriter, java.io.OutputStreamWriter를 import해야 한다.  
 버퍼를 사용하는 출력으로, print보다 속도가 빠르다.  
 개행이 필요하다면 BufferedWriter.newLine()을 사용하면 된다.
 
@@ -54,5 +57,4 @@ public class Main {
 }
 ```
 
-BufferedReader도 close()해줘야 할 것 같은데, 이 문제 풀 때는 몰랐었다.  
 BufferedWriter의 경우 위 코드에서는 flush()와 close()를 둘 다 사용했는데, close()가 flush()를 포함하고 있다. 이 문제 같은 경우는 close()만 써도 된다.
