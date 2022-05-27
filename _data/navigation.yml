@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "카테고리"
+  - title: "Categories"
     url: /categories/
-  - title: "포스트"
+  - title: "Tags"
+    url: /tags/
+  - title: "Posts"
     url: /year-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
