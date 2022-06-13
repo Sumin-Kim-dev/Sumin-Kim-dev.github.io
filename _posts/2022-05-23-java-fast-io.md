@@ -1,7 +1,7 @@
 ---
 title:  "[Java] 빠른 입출력 : BufferedReader / BufferedWriter"
 categories: Java
-tags: BufferedReader BufferedWriter StringTokenizer 백준 Bronze
+tags: BufferedReader BufferedWriter StringTokenizer
 last_modified_at: 2022-05-28
 toc: true
 toc_sticky: true
