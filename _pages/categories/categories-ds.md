@@ -3,7 +3,7 @@ title: "자료구조"
 permalink: categories/ds/
 layout: archive
 author_profile: true
-taxonomy: DS
+taxonomy: 자료구조
 sidebar_main: true
 ---
 

@@ -3,7 +3,7 @@ title: "프로그래머스"
 permalink: categories/programmers/
 layout: archive
 author_profile: true
-taxonomy: Programmers
+taxonomy: 프로그래머스
 sidebar_main: true
 ---
 

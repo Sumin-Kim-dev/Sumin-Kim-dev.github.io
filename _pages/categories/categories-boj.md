@@ -3,7 +3,7 @@ title: "백준"
 permalink: categories/boj/
 layout: archive
 author_profile: true
-taxonomy: BOJ
+taxonomy: 백준
 sidebar_main: true
 ---
 
