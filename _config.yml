@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -105,12 +105,12 @@ author:
   name             : "길사"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "막 공부를 시작한 초보 개발자"
-  location         : "South Korea"
+  location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:Sumin-Kim-dev@gmail.com"
+      url: "mailto:sumin.kim.develop@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sumin-Kim-dev"
@@ -265,6 +265,7 @@ defaults:
       share: true
       related: false
       use_math: true
+      sidebar_main : true
   
   # _pages
   - scope:
