@@ -36,7 +36,7 @@ Scanner와 크게 두 가지 차이점이 있다.
 
 ## 예시 코드
 
-[백준 15552번 - 빠른 A+B(Bronze 2)](https://www.acmicpc.net/problem/15552)의 정답 코드이다.
+[백준 15552번 - 빠른 A+B (Bronze 2)](https://www.acmicpc.net/problem/15552)의 정답 코드이다.
 
 ```java
 import java.io.*;
