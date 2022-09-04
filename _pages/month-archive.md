@@ -1,7 +1,7 @@
 ---
-title: "Posts by Year"
+title: "Posts by Month"
+permalink: /months/
 layout: posts
-permalink: /year-archive/
 author_profile: true
 sidebar_main: true
 ---
