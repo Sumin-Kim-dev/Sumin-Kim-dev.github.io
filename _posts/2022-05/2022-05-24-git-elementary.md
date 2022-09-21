@@ -1,7 +1,7 @@
 ---
 title:  "[Git] 기초적인 사용법"
 categories: Git
-tags: Vim
+tags: config clone add commit push
 date: 2022-05-24 04:00
 last_modified_at: 2022-05-24
 toc: true
