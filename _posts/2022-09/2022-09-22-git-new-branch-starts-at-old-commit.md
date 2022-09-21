@@ -4,7 +4,7 @@ categories: Git
 tags: switch checkout push
 date: 2022-09-22 01:30
 last_modified_at: 2022-09-22
-toc: false
+toc: true
 toc_sticky: true
 ---
 
