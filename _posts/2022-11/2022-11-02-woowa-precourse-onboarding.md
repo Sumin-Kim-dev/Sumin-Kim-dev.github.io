@@ -1,7 +1,7 @@
 ---
-title:  "우아한테크코스 5기 프리코스 1주차(온보딩) 회고"
+title:  "[우아한테크코스] 5기 프리코스 1주차(온보딩) 회고"
 categories: woowacourse
-tags: 우아한테크코스 프리코스
+tags: 프리코스 회고
 date : 2022-11-02 22:23
 last_modified_at: 2022-11-05
 toc: true
