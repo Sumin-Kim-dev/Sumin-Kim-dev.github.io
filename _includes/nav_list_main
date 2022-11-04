@@ -30,7 +30,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <span class="nav__sub-title">자료구조</span>
+        <span class="nav__sub-title">자료구조</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DS" %}
@@ -51,6 +51,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Git" %}
                         <li><a href="/categories/git/" class="">Git ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">취준 생활</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "woowacourse" %}
+                        <li><a href="/categories/woowacourse/" class="">우아한테크코스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
